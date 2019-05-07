@@ -4,7 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest tests",
+    "start": "node src/app.js"
+  },
+  "engines": {
+    "node": "8.11.3",
+    "npm": "5.6.x"
   },
   "repository": {
     "type": "git",
@@ -14,7 +19,7 @@
   "author": "",
   "license": "ISC",
   "jest": {
-  "testEnvironment": "node"
+    "testEnvironment": "node"
   },
   "bugs": {
     "url": "https://github.com/Stefan-Koegeler/shipping-service/issues"
@@ -22,6 +27,12 @@
   "homepage": "https://github.com/Stefan-Koegeler/shipping-service#readme",
   "devDependencies": {
     "fsevents": "^2.0.6",
-    "node-pre-gyp": "^0.13.0"
+    "nock": "^10.0.6",
+    "node-pre-gyp": "^0.13.0",
+    "sinon": "^7.3.2"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "express": "^4.16.4"
   }
 }
