@@ -1,0 +1,27 @@
+{
+  "name": "shipping-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Stefan-Koegeler/shipping-service.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "jest": {
+  "testEnvironment": "node"
+  },
+  "bugs": {
+    "url": "https://github.com/Stefan-Koegeler/shipping-service/issues"
+  },
+  "homepage": "https://github.com/Stefan-Koegeler/shipping-service#readme",
+  "devDependencies": {
+    "fsevents": "^2.0.6",
+    "node-pre-gyp": "^0.13.0"
+  }
+}
